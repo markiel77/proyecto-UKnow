@@ -1,0 +1,21 @@
+#blog h3{
+    text-align: center;
+}
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-grow: wrap;
+}
+
+#blog article {
+    margin: 15px;
+
+
+}
+#blog img {
+    width: 100%;
+    max-width: 280px;
+
+
+}

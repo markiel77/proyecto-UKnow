@@ -1,0 +1,127 @@
+:root{
+    --colorTextos: #6d666667;
+}
+
+
+*,
+::before,
+::after{
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: "Roboto";
+     background: #4568DC; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC); 
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+form{
+    background: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255);
+    border-radius: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 10px ;
+}
+
+input{
+    background: none;
+    font-size: 25px;
+    padding: 10px 10px 15px 5px;
+    display:block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+    color: var(--colorTextos) ;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    transition: 0.5 ease-in-out all;
+    pointer-events: none;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -14px;
+    font-size: 20px;
+    color: #9e449a;
+}
+
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    transition: 0.3s ease width ;
+    left: 0;
+}  
+
+input:focus~.barra::before{
+    width: 100%;
+}
+
+
+button{
+    font-family: "roboto" ;
+    background: #4568DC; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC); 
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    display: block;
+    width: 80% ;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: pointer;
+
+}
+
+@media screen and (max-width:500px){
+    form{
+        width: 80%;
+    }
+}
+
+

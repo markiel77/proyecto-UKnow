@@ -1,0 +1,53 @@
+
+
+
+.menu {
+    position: fixed;
+    
+    width: 30%;
+    left: -30%;
+    height: 100%;
+    background: rgba(51,51,51,0.9 );
+    transition: all 0.5s;
+    z-index: 100;
+    
+}
+.menu.active{
+
+    left: 0;
+}
+
+
+#click{
+
+    padding: 8px;
+    border-radius: 2px;
+}
+#click:hover  {
+    
+        background: rgba(87, 87, 87, 0.9);
+        padding: 8px;
+        border-radius: 2px;
+    }
+.menu a {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 7px;
+    border-bottom: 1px solid rgba (255,255,255,0.5);
+    font-family: sans-serif;
+    border-radius: 3px;
+    transition: all .3s ease-out;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a:hover{
+    background: rgb(121, 121, 121);
+
+}
+.menu a:hover {
+    background:   rgba (255,255,255,0.5);
+
+}
+

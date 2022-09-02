@@ -1,0 +1,61 @@
+
+
+#contenedor{
+  background-color: white;
+  color: black;
+  float: none;
+  text-align:center;
+
+}
+
+
+#encabezado{
+  background-color: white;
+  color: black;
+  float: none;
+  text-align:center;
+
+}
+
+#enlaces{
+  background-color: grey;
+  color: black;
+  float: none;
+  text-align:center;
+}
+
+#menuizquierda{
+  background-color: black;
+  color: black;
+  float: left;
+  width: 15%;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+#contenido{
+  background-color:white;
+  color: black;
+  float: left;
+  width: 70%;
+  text-align:center;
+
+ 
+}
+
+#menuderecha{
+  background-color: black;
+  color: white;
+  float: left;
+  width: 15%;
+
+  padding-bottom: 100px;
+}
+
+
+#pie{
+  background-color: white;
+  color: black;
+  float: none;
+  clear: both;
+}

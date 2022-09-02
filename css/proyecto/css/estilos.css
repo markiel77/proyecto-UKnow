@@ -1,0 +1,65 @@
+
+
+#contenedor{
+  background-color: #4d0606;
+  color: white;
+  float: none;
+  text-align:center;
+
+}
+
+
+#encabezado{
+  background-color: rgb(94, 48, 48);
+  color: white;
+  float: none;
+  text-align:center;
+
+}
+
+#enlaces{
+  background-color: white;
+  color: white;
+  float: none;
+  text-align:center;
+}
+
+#menuizquierda{
+  background-color: #c51515;
+  color: white;
+  float: left;
+  width: 15%;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+#contenido{
+  background-color:#310844;
+  color: white;
+  float: left;
+  width: 70%;
+  text-align:center;
+
+ 
+}
+
+#menuderecha{
+  background-color: #c51515;
+  color: white;
+  float: left;
+  width: 15%;
+
+  padding-bottom: 100px;
+}
+
+
+#pie{ 
+  background-color: #21afaf;
+  color: white;
+  float: none;
+  clear: both;
+  background-color: #310844;
+}
+#div:hover{
+  background-color: #F89B4D;
+}
